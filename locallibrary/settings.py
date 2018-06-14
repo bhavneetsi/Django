@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY','m+m^ksg-a%r+uy^y$)kq116c@720h#h
 #DEBUG = True
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [limitless-lake-74604.herokuapp.com]
 
 
 # Application definition
